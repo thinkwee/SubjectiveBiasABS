@@ -1,0 +1,11 @@
+hidden_size = 256
+topk = 4
+train_count = 287220
+batch_size = 2048
+epoches = 240
+loss_margin = 1.0
+loss_margin_score = 0.5
+print_every = 20
+batch_size_infer = 512
+bin_size = 70000
+bin_total = 4
