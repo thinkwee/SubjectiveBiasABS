@@ -1,5 +1,6 @@
 # SubjectiveBiasABS
--	code for the arxiv paper "Subjective Bias in Abstractive Summarization"
+-	code for the paper "Subjective Bias in Abstractive Summarization"
+-	[arxiv pdf](https://arxiv.org/pdf/2106.10084.pdf)
 
 # introduction
 - params.py：hyperparameters
