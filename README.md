@@ -4,11 +4,11 @@
 
 # introduction
 - params.py：hyperparameters
-- get_datasets.py：get the topk oracle sentences in article then parse
-- process_dataset：turn parsed file into the format of DGL graph triplet
-- model.py：the self-supervised GCN model for extractive subjective style embedding
-- train.py：train, concat small graphs into a batch
-- infer.py: infer the whole training set to get subjective style embedding
+- get_datasets.py：get the topk oracle sentences in the article then parse
+- process_dataset.py：turn parsed file into the format of DGL graph triplet
+- model.py：the self-supervised GCN model for extracting subjective style embedding
+- train.py：training
+- infer.py: infer the whole training set to get subjective style embedding for clustering
 
 # detail
 - negative samples of oracle sentences are uniform-sampled by the jaccard sim
